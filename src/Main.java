@@ -6,9 +6,16 @@ public class Main {
 
         int result = addSum(8, 10);
         System.out.println("Sum: " + result);
+
+        int resultMultiple = multiply(7, 8);
+        System.out.println("Multiply: " + resultMultiple);
     }
 
     public static int addSum(int a, int b){
         return a + b;
+    }
+
+    public static int multiply(int a, int b){
+        return a * b;
     }
 }
